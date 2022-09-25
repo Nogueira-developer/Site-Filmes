@@ -1,0 +1,169 @@
+body{
+    background-color: black !important;
+    margin: 0 auto;
+   
+}
+header{
+    background-color: black;
+padding-left: 60px;
+}
+form{ 
+    margin-right: 80px;
+    padding: 30px;
+    float: right;}
+.navbar-brand{
+        padding-left: 20px;
+        padding-bottom: 8px;
+}
+.nav-item:hover{
+        font-size: 15px;
+        font-weight: bold;  
+}
+#carousel{
+    margin-left: 300px;
+    height: 50%;
+    width: 50%;
+margin-top: 10px;
+}
+section{
+    background-color: black;
+}
+footer{
+    margin-top: 10px;
+    background-color: black;
+    text-align: center;
+    color: antiquewhite; 
+    clear: both;
+}
+a:hover{
+    color: black !important;
+    transition: all 0.3s linear;
+}
+.container{   
+    padding-top: 20px;
+    
+}
+h2{
+    padding-top: 30px;
+    color: darkgoldenrod;
+    padding-left: 30px;
+}
+.ultimos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+.ultimos2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+.ultimos3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+#foot{
+    padding: 10px;
+}
+.container {
+    margin-top: 30px;
+    width:100%;
+    margin-bottom: 5px;
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto;
+
+}
+aside{
+    border: 1px solid whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+    float: right;
+    background-color: rgba(196, 238, 234, 0.329);
+    width: 226px;
+    height: 620px;
+    border-radius: 20px;
+    border: none;
+
+}
+h3{
+    padding-top: 25px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+aside nav{
+    font-size: 20px;
+ 
+}
+a{
+color: aliceblue !important;
+}
+@media screen and (max-width: 768px){
+    body{
+     max-width: 100%;
+    }
+     header{
+     flex-direction: row;
+     display: none;
+    }
+    section{
+     text-align: center;
+    }
+    .carousel{
+ display: none;
+    }
+    aside{
+     display: none;
+    }
+    .container{
+     padding: 0;
+     display: grid;
+    grid-template-columns: auto auto;
+    }
+    .responsive{
+   width: 100%;
+   padding: 0;
+   gap: 0;
+    }
+ }
+ @media screen and (max-width: 600px){
+     body{
+         max-width: 100%;
+        }
+         header{
+         flex-direction: row;
+         display: none;
+        }
+        section{
+         flex-direction: column;
+        }
+        .d-flex{
+     flex-direction: column;
+        }
+        .carousel{
+     display: none;
+        }
+        .navbar navbar-expand-lg{
+         font-size: 20px !important;
+        }
+        aside{
+         display: none;
+        }
+        .container{
+         display: grid;
+        grid-template-columns: auto auto;
+        }
+        .responsive{
+       width: 100%;
+       padding: 0;
+       gap: 0;
+        }
+        h3{
+         padding-left: 80px;
+        }
+     
+ }
+
